@@ -1,0 +1,20 @@
+
+<div class="container white">
+    <h1>Blog Posts</h1>
+    <hr  style="width:30%;text-align:center;border: 2px solid red;"><br><br><br>
+    <div class="card" *ngFor="let post of blogPosts">
+    <h5 class="card-header headings">{{post.title}}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{date}}</h5>
+      <p class="card-text">{{post.content}}</p>
+      <button routerLink="/edit/{{post.id}}" class="btn btn-success ">Edit</button>
+        <button (click)="delete(post.id)" class="btn white del">Delete</button>
+        <!-- <fb-share type="button" href="https://github.com/zyra/ngx-facebook/"></fb-share> -->
+        <div class="fb-share-button" data-href="http://localhost:62657/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+
+      <hr>
+    </div>
+  </div><br>
+</div>
+<hr>

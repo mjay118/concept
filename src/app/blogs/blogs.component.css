@@ -1,0 +1,41 @@
+.white{
+    background-color:white;
+    color:red;
+    width:60%;
+}
+.del:hover{
+    background-color:red;
+}
+.btn-success:hover{
+    background-color: green;
+}
+.btn{
+    color:white;
+    width:15%;
+    text-align: center;
+}
+h1{
+    font-weight: bolder;
+    text-align: center;
+}
+.headings{
+    font-size: larger;
+    font-weight: bolder;
+}
+.card-text{
+    color:black;
+}
+h1{
+    padding-top: 5%;
+}
+.del{
+    margin-left: 10px;
+    background-color: red;
+}
+.card{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+hr{
+    border: 1px solid red;
+}

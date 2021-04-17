@@ -1,0 +1,22 @@
+
+<div class="container white">
+    
+    <form [formGroup]="create" (ngSubmit)="blogs()">
+        <h1>Create Post</h1><br><br>
+        <div class="form-group">
+          <label >Blog Title:</label>
+          <input  formControlName="title" type="text" class="form-control" placeholder="Enter Title" >
+         
+        </div>
+        <div class="form-group">
+          <label >Blog Content:</label>
+          <textarea  formControlName="content" class="form-control" rows="10" placeholder="Write content for your blog...."></textarea>
+        </div>
+
+        <button type="submit" class="btn white center-block">Submit</button>
+        
+      </form>
+      
+    
+</div>
+

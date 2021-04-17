@@ -1,0 +1,24 @@
+<div class="container white">
+    
+    <form  [formGroup]='form'>
+        <h1>Sign-Up Form</h1><br><br>
+        <div class="form-group">
+          <label >Email address:</label>
+          <input  formControlName="email" type="email" class="form-control"  >
+         <span *ngFor="form.control['email'].hasError(required)">Email Invalid</span>
+        </div>
+        <div class="form-group">
+          <label >Password:</label>
+          <input  formControlName="password" type="password" class="form-control" >
+          <span *ngFor="form.control['password'].haserror(required)">Email Invalid</span>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn white center-block">Submit</button>
+        
+      </form>
+      
+    
+</div>
+

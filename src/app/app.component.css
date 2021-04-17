@@ -1,0 +1,48 @@
+p{
+    text-align: center;
+    color:white;
+    font-style: italic;
+}
+    
+table{
+   border-collapse: collapse;
+
+}
+th,td{
+    text-align: center;
+    color:red;
+    padding:4%;
+    width:30%;
+    background-color: white;
+}
+th{
+    color:black;
+    font-weight: bolder;
+}
+table{
+    text-align: center;
+    margin-left: auto;  
+    margin-right: auto;
+}
+h2{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.white{
+    background-color: white;
+    color:red;
+}
+.btn:hover{
+    font-weight:bolder;
+}
+h1{
+    font-size:xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    padding-top:5%;
+}
+a{
+    color:white;
+}
